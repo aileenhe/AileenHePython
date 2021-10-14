@@ -1,0 +1,3 @@
+print ("  ------------------------------------------------ \n |                                                |\n |       01HelloWorld                             | \n |       Name : Aileen He                         |\n |       Version : 01                             |\n |                                                |\n  ------------------------------------------------ \n Hello World")
+input("------> Program Paused : press enter to continue")
+print("Goodbye World")
