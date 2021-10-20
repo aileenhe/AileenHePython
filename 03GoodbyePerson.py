@@ -1,1 +1,11 @@
-print ("  ------------------------------------------------ \n |                                                |\n |       01HelloWorld                             | \n |       Name : Aileen He                         |\n |       Version : 01                             |\n |                                                |\n  ------------------------------------------------ \n Hello World") 
+print(" ------------------------------------------------") 
+print("|                                                |")
+print("|    03GoodbyePerson                             |")
+print("|    Name : Aileen He                            |") 
+print("|    Version : 01                                |")
+print("|                                                |")
+print(" ------------------------------------------------")
+print("Hello") 
+name = input("What is your name ? ")
+#Printing The Variable:#
+print("Goobye", name )
