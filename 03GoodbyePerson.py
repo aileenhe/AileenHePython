@@ -8,4 +8,4 @@ print(" ------------------------------------------------")
 print("Hello") 
 name = input("What is your name ? ")
 #Printing The Variable:#
-print("Goobye", name )
+print("Goodbye",name)
