@@ -11,5 +11,4 @@ while ans != ("IST"):
     ans = input("What is the name of this class? ")
     continue
 else:
-    print("\nCongratualtions!!")
-
+    print("\nCongratulations!!")
