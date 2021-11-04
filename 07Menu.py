@@ -47,6 +47,17 @@ def stringloop():
     print(str1[i])
   print("\n----End of Output -----------------------------")
 
+def convert():
+    print("\n----Start of Output ---------------------------")
+    str1 = input ("\nWhat is your string? ")
+    ascii_values = []
+    equal_sign = ('=')
+    for character in str1:
+        ascii_values.append(ord(character))
+    for i in range(len(str1)): 
+        print(str1[i],equal_sign,ascii_values[i], sep="")
+    print("\n----End of Output -----------------------------")
+
 def invalid():
       print("\n----Start of Output ---------------------------")
       print("\ninvalid option")
@@ -123,6 +134,12 @@ while True:
     if clear == "":
       continue
 
+  if option == ("8"):
+    convert()
+    clear = input("\n\n\nPress Enter to continue")
+    if clear == "":
+      break
+    
   if option == ("8,9"):
     invalid()
     clear = input("\n\n\nPress Enter to continue")
