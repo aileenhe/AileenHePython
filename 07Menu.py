@@ -39,7 +39,14 @@ def whileloop():
           continue
       else:
           print("\nCongratulations!!")
-      
+
+def stringloop():
+  print("\n----Start of Output ---------------------------")
+  str1 = input ("\nWhat is your string? ")
+  for i in range(len(str1)):
+    print(str1[i])
+  print("\n----End of Output -----------------------------")
+
 def invalid():
       print("\n----Start of Output ---------------------------")
       print("\ninvalid option")
@@ -109,8 +116,14 @@ while True:
     clear = input("\n\n\nPress Enter to continue")
     if clear == "":
       continue
-              
-  if option == ("7,8,9"):
+  
+  if option == ("7"):
+    stringloop()
+    clear = input("\n\n\nPress Enter to continue")
+    if clear == "":
+      continue
+
+  if option == ("8,9"):
     invalid()
     clear = input("\n\n\nPress Enter to continue")
     if clear == "":
