@@ -1,5 +1,3 @@
-
-
 str1 = input ("What is your string? ")
 ascii_values = []
 equal_sign = ('=')

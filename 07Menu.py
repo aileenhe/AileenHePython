@@ -55,7 +55,7 @@ def convert():
     for character in str1:
         ascii_values.append(ord(character))
     for i in range(len(str1)): 
-        print(str1[i],equal_sign,ascii_values[i], sep="")
+      print(str1[i],equal_sign,ascii_values[i], sep="")
     print("\n----End of Output -----------------------------")
 
 def invalid():
@@ -138,9 +138,9 @@ while True:
     convert()
     clear = input("\n\n\nPress Enter to continue")
     if clear == "":
-      break
+      continue
     
-  if option == ("8,9"):
+  if option == ("9"):
     invalid()
     clear = input("\n\n\nPress Enter to continue")
     if clear == "":
